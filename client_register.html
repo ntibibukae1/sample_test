@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Online Clothes Shopping</title>
+</head>
+<h1> Company Registration Form</h1>
+<form action="registration_customer.php" method="POST" name="form1" id="form1" onSubmit="return validateForm(this,arrFormValidation);">
+    <table align="center" width="500">
+        <tr><td>
+<label style="width: 130px">Firstname:</label></td><td> <span id="sprytextfield1"><input type="text" size = "25" name="firstname" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td>
+<label style="width: 130px">Lastname:</label></td><td> <span id="sprytextfield2"><input type="text" size = "25" name="lastname" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td>
+<label style="width: 130px">Gender:</label></td><td> <select name="gender" >
+	<option value = "Not selected">--Choose sex--</option>
+	<option value = "Male">Male</option>
+	<option value = "Female">Female</option>
+	</select></td></tr><tr><td>
+<label style="width: 130px">Phone No:</label></td><td> <span id="sprytextfield3"><input type="text" size = "25" name="phone" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td>
+<label style="width: 130px">Email:</label></td><td> <span id="sprytextfield4"><input type="text" size = "25" name="email" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td>
+<label style="width: 130px">Username:</label></td><td><span id="sprytextfield5"> <input type="text" size = "25" name="username" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td>
+<label style="width: 130px">Password:</label></td><td><span id="sprytextfield6"><input type="password" size = "25" name="password" />
+<span class="textfieldRequiredMsg">A value is required.</span></span></td></tr><tr><td colspan="2">
+<label style="width: 130px"><input type="submit" value="Register"/></label>
+<label style="width: 130px"><input type = "reset" value = "Cancel"></label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
